@@ -1,0 +1,25 @@
+.appbar {
+    background-color: peru;
+}
+
+.icons{
+    font-size: x-large;
+    margin-right: 25px;
+    gap: 1rem;    
+}
+
+
+@media screen and (min-width: 900px){
+    .nav-item{
+        margin-right: 2rem;
+        font-size: x-large;
+    }
+    .collapse{
+        margin-left: 18rem;
+     }
+     .cart{
+        display: flex;
+        justify-content: space-evenly;
+     }
+}
+

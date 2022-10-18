@@ -1,0 +1,58 @@
+
+.appbar {
+    background-color: peru;
+}
+
+.icons{
+    font-size: x-large;
+    margin-right: 25px;
+    gap: 1rem;    
+}
+
+
+@media screen and (min-width: 900px){
+    .nav-item{
+        margin-right: 2rem;
+        font-size: x-large;
+    }
+    .collapse{
+        margin-left: 18rem;
+     }
+     .cart{
+        display: flex;
+        justify-content: space-evenly;
+     }
+}
+
+@media screen and (max-width: 768px){
+    #aboutOne{
+        width: 12rem;
+        margin-left: -11rem;
+    }
+}
+
+.card-title:hover{
+    color: rgb(154, 154, 44);
+}
+
+.hover:hover{
+    color: black;
+    background-color: blue;
+}
+a:hover {
+    background-color: rgb(25, 86, 185);
+    border-radius: 2rem;
+  }
+
+  .container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
